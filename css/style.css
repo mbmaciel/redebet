@@ -308,9 +308,10 @@ button:focus {
   top: -70px;
   left: 0;
   right: 0;
-  background-image: -moz-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -ms-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
+  
+  background-image: -moz-linear-gradient(0deg, #005213 0%, #28a745 100%);
+  background-image: -webkit-linear-gradient(0deg, #005213 0%, #28a745 100%);
+  background-image: -ms-linear-gradient(0deg,  #005213 0%, #28a745 100%);
   -webkit-transform: translateY(70px);
   -ms-transform: translateY(70px);
   transform: translateY(70px);
@@ -3303,13 +3304,14 @@ h6 {
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Main Button Area css
+/*  #005213 0%, #28a745
 ============================================================================================ */
 .main_btn {
   padding: 0px 45px;
   background-image: -webkit-gradient(linear, left top, right top, from(#bc2bff), color-stop(51%, #7249fb), to(#bc2bff));
-  background-image: -webkit-linear-gradient(left, #bc2bff 0%, #7249fb 51%, #bc2bff 100%);
-  background-image: -o-linear-gradient(left, #bc2bff 0%, #7249fb 51%, #bc2bff 100%);
-  background-image: linear-gradient(to right, #bc2bff 0%, #7249fb 51%, #bc2bff 100%);
+  background-image: -webkit-linear-gradient(left, #005213 0%, #28a745 51%, #005213 100%);
+  background-image: -o-linear-gradient(left, #005213 0%, #28a745 51%, #005213 100%);
+  background-image: linear-gradient(to right, #005213 0%, #28a745 51%, #005213 100%);
   background-size: 200% auto;
   z-index: 2;
   display: inline-block;
@@ -3354,9 +3356,9 @@ h6 {
 }
 
 .main_btn2:hover {
-  background-image: -moz-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -ms-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
+  background-image: -moz-linear-gradient(0deg, #005213 0%, #28a745 100%);
+  background-image: -webkit-linear-gradient(0deg, #005213 0%, #28a745 100%);
+  background-image: -ms-linear-gradient(0deg,  #005213 0%, #28a745 100%);
   -webkit-box-shadow: 0px 10px 30px 0px rgba(115, 73, 251, 0.3);
   box-shadow: 0px 10px 30px 0px rgba(115, 73, 251, 0.3);
   color: #fff;
@@ -3547,9 +3549,9 @@ h6 {
 /* Download App Area css
 ============================================================================================ */
 .download_app_area {
-  background-image: -moz-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -ms-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
+  background-image: -moz-linear-gradient(0deg, #005213 0%, #28a745 100%);
+  background-image: -webkit-linear-gradient(0deg, #005213 0%, #28a745 100%);
+  background-image: -ms-linear-gradient(0deg, #005213 0%, #28a745 100%);
 }
 
 .app_inner {
